@@ -1,0 +1,13 @@
+*{margin: 0; padding: 0;}
+body{margin: 0 auto; width: 940px; font-size: 13px; font-family: Verdana;}
+header, nav{display: block;}
+article{clear: both; margin-top: 50px;text-align: justify;}
+h1{text-align: center;}
+nav ul{list-style-type: none;} /* ul que estiver dentro de nav */
+nav ul li{float: left;}
+nav ul li a{display: block; height: 25px; padding: 0 30px; float: left; font: 14px; line-height: 30px; text-align: center; text-decoration: none; color: #000; font-weight: bold} 
+/* padding = espaçamento */ /* line-height = altura da linha */ /* font-weight = espessura da fonte /* /* text-decoration = tirar sublinhado do link */
+nav ul li a:hover{color: #34ABE0} /* Passar o mouse em cima do li a */
+nav ul li a.selecionado{color: #fff; background-color: #34ABE0; margin-left: 10px; height: 30px; line-height: 30px; margin-top: 2px}
+/*margin-left = margem esquerda */ /* line-height = altura da linha */ /* margin-top = uma pequena margem do título */
+.destaque{}
